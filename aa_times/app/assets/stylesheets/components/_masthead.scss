@@ -49,7 +49,8 @@
 }
 
 .masthead-links li {
-	margin-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .masthead-links button {
@@ -78,42 +79,36 @@
 	margin-right: 5px;
 }
 
-.masthead-links strong {
-	color: green;
-}
-
 .masthead-links li:nth-of-type(2):hover {
 	text-decoration: underline;
-	cursor: pointer;
 }
 
-// .masthead-links li:nth-of-type(2) {
-// 	border-left: 1px solid $light-gray;
-// }
+.masthead-links li:nth-of-type(2) {
+	border-left: 1px solid $light-gray;
+}
 
-// .masthead-links li:nth-of-type(3) {
-// 	border-left: 1px solid $light-gray;
-// }
+.masthead-links li:nth-of-type(3) {
+	border-left: 1px solid $light-gray;
+}
 
-// .masthead-links li:nth-of-type(4) {
-// 	border-left: 1px solid $light-gray;
-// }
+.masthead-links li:nth-of-type(4) {
+	border-left: 1px solid $light-gray;
+}
 
-// .masthead-links li:nth-of-type(5) {
-// 	border-left: 1px solid $light-gray;
-// }
+.masthead-links li:nth-of-type(5) {
+	border-left: 1px solid $light-gray;
+}
 
 .masthead-links li:nth-of-type(3):hover {
 	text-decoration: underline;
-	cursor: pointer;
 }
 
 .masthead-links li:nth-of-type(4):hover {
+	background-clip: content-box;
 	background-color: $light-gray;
-	cursor: pointer;
 }
 
 .masthead-links li:nth-of-type(5):hover {
+	background-clip: content-box;
 	background-color: $light-gray;
-	cursor: pointer;
 }

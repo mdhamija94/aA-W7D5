@@ -21,11 +21,9 @@
 
 .section-links li:hover {
   background-color: $light-gray;
-  cursor: pointer;
 }
 
 .section-links li:last-of-type {
   text-decoration: underline;
   text-transform: uppercase;
-  cursor: pointer;
 }
